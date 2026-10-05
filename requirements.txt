@@ -1,0 +1,3 @@
+# BMI Calculator
+# No external Python packages required.
+# Tkinter and SQLite are included with standard Python.
