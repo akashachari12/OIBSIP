@@ -10,6 +10,10 @@ The BMI Calculator allows users to enter their height and weight and calculates 
 
 The application also stores BMI calculation history using an SQLite database.
 
+## 📸 Application Screenshot
+
+![BMI Calculator](bmi_calculator_screenshot.png)
+
 ## ✨ Features
 
 - Calculate BMI based on height and weight
