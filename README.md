@@ -1,41 +1,39 @@
-# BMI Calculator
+# 🧮 BMI Calculator
 
-A Python-based BMI Calculator developed as part of the Oasis Infobyte Internship.
+A simple and user-friendly **BMI (Body Mass Index) Calculator** developed using Python.
 
-## Features
+This project was created as part of the **Oasis Infobyte Internship**.
 
-- Calculate Body Mass Index (BMI)
-- BMI category classification
-- User-friendly Tkinter GUI
-- Input validation
-- BMI history
-- SQLite database storage
-- Date and time for each record
-- Clear BMI history
-- BMI history graph
-- BMI range guide
-- Color-based BMI result
+## 📌 About the Project
 
-## Technologies Used
+The BMI Calculator allows users to enter their height and weight and calculates their Body Mass Index (BMI).
 
-- Python
-- Tkinter
-- SQLite
-- Matplotlib
+The application also stores BMI calculation history using an SQLite database.
 
-## BMI Categories
+## ✨ Features
 
-| BMI Range | Category |
-|-----------|----------|
-| Below 18.5 | Underweight |
-| 18.5 - 24.9 | Normal weight |
-| 25.0 - 29.9 | Overweight |
-| 30.0 or above | Obesity |
+- Calculate BMI based on height and weight
+- Simple graphical user interface
+- Display BMI value
+- Show BMI category
+- Store BMI calculation history
+- View previous BMI records
+- SQLite database integration
+- Easy-to-use interface
 
-## How to Run
+## 🛠️ Technologies Used
 
-1. Install Python.
-2. Install Matplotlib:
+- **Python**
+- **Tkinter** – GUI
+- **SQLite** – Database
+- **Git & GitHub** – Version control
 
-```bash
-pip install matplotlib
+## 📂 Project Structure
+
+```text
+BMI_Calculator/
+│
+├── bmi_gui.py
+├── bmi_calculator.py
+├── bmi_history.db
+└── README.md
